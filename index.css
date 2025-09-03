@@ -65,7 +65,7 @@ body {
     font-size: 20px;
 }
 
-.nav a.current, .nav .link:hover {
+.nav .link:hover {
     font-size: 25px;
     color: rgb(255, 255, 255);
     transition: 0.5s ease;
