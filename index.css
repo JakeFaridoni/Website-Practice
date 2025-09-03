@@ -29,11 +29,6 @@ body {
     transition: ease-out 1s;
 }
 
-.nav.active {
-    height: 50px;
-    transition: ease 1s;
-}
-
 .nav .container {
     display: flex;
     justify-content: space-between;
@@ -70,7 +65,7 @@ body {
     font-size: 20px;
 }
 
-.nav a.current, .nav .link:hover {
+.nav a, .nav .link:hover {
     font-size: 25px;
     color: rgb(255, 255, 255);
     transition: 0.5s ease;
